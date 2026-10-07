@@ -8,3 +8,9 @@ body {
 button {
     cursor: pointer;
 }
+
+.task-filters {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
