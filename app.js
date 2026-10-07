@@ -1,3 +1,7 @@
 const tasks = [];
 
-console.log("FocusBoard initialized");
+function getTaskCount() {
+  return tasks.length;
+}
+
+console.log(`Tasks: ${getTaskCount()}`);
